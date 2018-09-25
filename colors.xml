@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme colours. -->
+    <color name="colorPrimary">#111</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#222</color>
+    <color name="colorBackground">#333</color>
+
+    <!-- Pink theme colours. -->
+    <color name="colorPrimaryPink">#E87FDF</color>
+    <color name="colorPrimaryDarkPink">#A841AD</color>
+    <color name="colorAccentPink">#FFCFFE</color>
+    <color name="colorBackgroundPink">#FFE7FE</color>
+
+    <!-- Blue theme colours. -->
+    <color name="colorPrimaryBlue">#2F8FEF</color>
+    <color name="colorPrimaryDarkBlue">#18108E</color>
+    <color name="colorAccentBlue">#98D5FF</color>
+    <color name="colorBackgroundBlue">#C5E7FF</color>
+
+    <!-- Green theme colours. -->
+    <color name="colorPrimaryGreen">#1EDF58</color>
+    <color name="colorPrimaryDarkGreen">#0B730B</color>
+    <color name="colorAccentGreen">#88FFAB</color>
+    <color name="colorBackgroundGreen">#D4FFE1</color>
+
+    <!-- Black theme colours. -->
+    <color name="colorPrimaryBlack">#454545</color>
+    <color name="colorPrimaryDarkBlack">#000000</color>
+    <color name="colorAccentBlack">#CDCDCD</color>
+    <color name="colorBackgroundBlack">#EBEBEB</color>
+
+    <!-- Japan theme colours. -->
+    <color name="colorPrimaryJapan">#E50606</color>
+    <color name="colorPrimaryDarkJapan">#A50000</color>
+    <color name="colorAccentJapan">#FF3B3B</color>
+    <color name="colorBackgroundJapan">#FFFFFF</color>
+</resources>

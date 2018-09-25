@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Photo Album</string>
+    <string name="title">Title</string>
+    <string name="big_picture">big picture</string>
+    <string name="memories">Memories...</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+</resources>

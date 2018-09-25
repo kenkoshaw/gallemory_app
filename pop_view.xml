@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/pop_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/pop_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/popup_button"
+                    android:text="Select Image"
+                    android:textColor="#FBFAD8"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/pop_image"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/pop_image"
+                    app:layout_constraintTop_toTopOf="@+id/pop_image"
+                    app:layout_constraintVertical_bias="0.068" />
+
+                <TextView
+                    android:id="@+id/pop_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Need to select an image"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="10sp"
+                    android:visibility="invisible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/pop_image"
+                    app:layout_constraintTop_toBottomOf="@+id/pop_select" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <EditText
+                android:id="@+id/pop_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="3"
+                android:ems="10"
+                android:hint="Memory Name..."
+                android:inputType="textPersonName"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:ems="10"
+                android:hint="Date/Time"
+                android:inputType="date"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Title Required"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/pop_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="Caption..."
+            android:inputType="textMultiLine"
+            android:maxHeight="110dp"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/pop_radio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="Mem-Drop View"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/pop_add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/popup_button"
+                android:text="Add Memory"
+                android:layout_gravity="center"
+                android:textColor="#FBFAD8"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

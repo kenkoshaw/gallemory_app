@@ -1,0 +1,181 @@
+<resources>
+    <!-- New application theme. . . -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Pop up box theme -->
+    <style name="AppTheme.popUpTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+
+    <!-- Pink application theme. . . -->
+    <style name="PinkTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPink</item>
+        <item name="colorAccent">@color/colorAccentPink</item>
+        <item name="android:colorBackground">@color/colorBackgroundPink</item>
+        <item name="android:buttonStyle">@style/PButton</item>
+        <item name="android:textViewStyle">@style/PText</item>
+        <item name="editTextStyle">@style/PText</item>
+        <item name="spinnerStyle">@style/PSpinner</item>
+        <item name="spinnerDropDownItemStyle">@style/PSpinner</item>
+    </style>
+
+    <!-- Pink Buttons -->
+    <style name="PButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/pink_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkPink</item>
+    </style>
+
+    <!-- Pink Text View -->
+    <style name="PText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/pink_rectangle</item>
+        <item name="android:textColor">@color/colorPrimaryDarkPink</item>
+    </style>
+
+    <!-- Pink Spinner View -->
+    <style name="PSpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/pink_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkPink</item>
+    </style>
+
+
+    <!-- Blue application theme. . . -->
+    <style name="BlueTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorAccentBlue</item>
+        <item name="android:colorBackground">@color/colorBackgroundBlue</item>
+        <item name="android:buttonStyle">@style/BButton</item>
+        <item name="android:textViewStyle">@style/BText</item>
+        <item name="editTextStyle">@style/BText</item>
+        <item name="spinnerStyle">@style/BSpinner</item>
+        <item name="spinnerDropDownItemStyle">@style/BSpinner</item>
+    </style>
+
+    <!-- Blue Buttons -->
+    <style name="BButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/blue_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkBlue</item>
+    </style>
+
+    <!-- Blue Text View -->
+    <style name="BText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/blue_rectangle</item>
+        <item name="android:textColor">@color/colorPrimaryDarkBlue</item>
+    </style>
+
+    <!-- Blue Spinner View -->
+    <style name="BSpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/blue_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkBlue</item>
+    </style>
+
+
+    <!-- Green application theme. . . -->
+    <style name="GreenTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="android:colorBackground">@color/colorBackgroundGreen</item>
+        <item name="android:buttonStyle">@style/GButton</item>
+        <item name="android:textViewStyle">@style/GText</item>
+        <item name="editTextStyle">@style/GText</item>
+        <item name="spinnerStyle">@style/GSpinner</item>
+        <item name="spinnerDropDownItemStyle">@style/GSpinner</item>
+    </style>
+
+    <!-- Green Buttons -->
+    <style name="GButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkGreen</item>
+    </style>
+
+    <!-- Green Text View -->
+    <style name="GText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/green_rectangle</item>
+        <item name="android:textColor">@color/colorPrimaryDarkGreen</item>
+    </style>
+
+    <!-- Green Spinner View -->
+    <style name="GSpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/green_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkGreen</item>
+    </style>
+
+
+    <!-- Black application theme. . . -->
+    <style name="BlackTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+        <item name="android:colorBackground">@color/colorBackgroundBlack</item>
+        <item name="android:buttonStyle">@style/BlkButton</item>
+        <item name="android:textViewStyle">@style/BlkText</item>
+        <item name="editTextStyle">@style/BlkText</item>
+        <item name="spinnerStyle">@style/BlkSpinner</item>
+        <item name="spinnerDropDownItemStyle">@style/BlkSpinner</item>
+    </style>
+
+    <!-- Black Buttons -->
+    <style name="BlkButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/black_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkBlack</item>
+    </style>
+
+    <!-- Black Text View -->
+    <style name="BlkText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/black_rectangle</item>
+        <item name="android:textColor">@color/colorPrimaryDarkBlack</item>
+    </style>
+
+    <!-- Black Spinner View -->
+    <style name="BlkSpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/black_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkBlack</item>
+    </style>
+
+
+    <!-- Japan application theme. . . -->
+    <style name="JapanTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryJapan</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkJapan</item>
+        <item name="colorAccent">@color/colorAccentJapan</item>
+        <item name="android:colorBackground">@color/colorBackgroundJapan</item>
+        <item name="android:buttonStyle">@style/JpButton</item>
+        <item name="android:textViewStyle">@style/JpText</item>
+        <item name="editTextStyle">@style/JpText</item>
+        <item name="spinnerStyle">@style/JpSpinner</item>
+        <item name="spinnerDropDownItemStyle">@style/JpSpinner</item>
+    </style>
+
+    <!-- Japan Buttons -->
+    <style name="JpButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/japan_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkJapan</item>
+    </style>
+
+    <!-- Japan Text View -->
+    <style name="JpText" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/japan_rectangle</item>
+        <item name="android:textColor">@color/colorPrimaryDarkJapan</item>
+    </style>
+
+    <!-- Japan Spinner View -->
+    <style name="JpSpinner" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/japan_button</item>
+        <item name="android:textColor">@color/colorPrimaryDarkJapan</item>
+    </style>
+
+</resources>
